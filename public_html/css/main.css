@@ -1,0 +1,125 @@
+body {
+    background: #76b852;
+    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+    background: -moz-linear-gradient(right, #76b852, #8DC26F);
+    background: -o-linear-gradient(right, #76b852, #8DC26F);
+    background: linear-gradient(to left, #76b852, #8DC26F);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #328135;
+}
+
+.alert-danger {
+    margin: 0 5px;
+    color: #721c24;
+    background-color: #da9797;
+    border-color: #f5c6cb;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.site {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    background-color: #388e3c87;
+}
+
+.search-page {
+    width: 360px;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 250px;
+    margin: 0 auto 30px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form .field {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form .btn{
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form .btn:hover {
+    background: #43A047;
+}
+
+.form label {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#result_form ul.list{
+    margin: 0 auto 30px;
+    padding: 10px 30px;
+    background: #FFFFFF;
+    max-width: 350px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#result_form ul.list a:visited, #result_form ul.list a:link, #result_form ul.list a:hover, #result_form ul.list a:active {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+#result_form  ul.list li {
+    margin-bottom: 5px;
+    color: #328135;
+}
+
+.form .bot {
+    padding: 15px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: #328135;
+}
+
+.form .bot a {
+    color: #4CAF50;
+}
